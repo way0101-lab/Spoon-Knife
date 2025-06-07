@@ -14,8 +14,8 @@ on:
     branches: [ main, master, develop, stage, release ]
   pull_request:
     branches: [ main, master, develop, stage, release ]
-  schedule:
-    - cron: '34 21 * * 6'
+  workflow_dispatch:
+
 
 jobs:
   build:
